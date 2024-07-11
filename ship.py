@@ -19,8 +19,6 @@ class Ship(Sprite):
         self.rect = self.image.get_rect()
         self.center_ship()
 
-
-
         # flag for hold button
         self.moving_right = False
         self.moving_left = False

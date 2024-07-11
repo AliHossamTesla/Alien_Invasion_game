@@ -39,12 +39,6 @@ class AlienInvasion:
 
     def _create_fleet(self):
         """Create the fleet of aliens."""
-        # Make an alien.
-        alien = Alien(self)
-
-        # Spacing between each alien is equal to one alien width.
-        # The numbers here is to adjust view
-        alien_width, alien_height = alien.rect.size
 
         # Create row of aliens.
         for row_number in range(3):
